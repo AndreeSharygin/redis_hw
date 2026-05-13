@@ -9,6 +9,8 @@ from redis_client import redis_client
 # Создаем экземпляр FastAPI
 app = FastAPI()
 
+
+
 # Модель данных
 class Article(BaseModel):
     id: int
